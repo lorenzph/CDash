@@ -108,7 +108,7 @@ class BuildTest
     {
         $marshaledStatus = self::marshalStatus($data['status']);
         if ($data['details'] === 'Disabled') {
-            $marshaledStatus = array('Not Run', 'disabled');
+            $marshaledStatus = array('Not Run', 'disabled-test');
         }
         $marshaledData = array(
             'id' => $data['id'],
